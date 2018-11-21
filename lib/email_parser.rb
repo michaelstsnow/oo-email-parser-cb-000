@@ -25,6 +25,6 @@ class EmailParser
   end
 
   def self.parse
-    @@all? { |e|  }
+    @@all
   end
 end
