@@ -17,7 +17,6 @@ class EmailParser
     unique_emails.each do |email|
       @@all << email
     end
-    end
   end
 
   def self.parse
