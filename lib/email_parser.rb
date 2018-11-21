@@ -25,8 +25,6 @@ class EmailParser
   end
 
   def self.parse
-
-    email_array=emails.split(/\s*,\s*/)
-    email_array.uniq
+    @@all? { |e|  }
   end
 end
