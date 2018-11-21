@@ -7,7 +7,7 @@ class EmailParser
   @@all=[]
 
   def initialize(email)
-    :email=email
+    @email=email
   end
 
   def save
