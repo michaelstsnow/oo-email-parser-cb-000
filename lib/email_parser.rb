@@ -19,10 +19,13 @@ class EmailParser
   end
 
   def self.new(emails)
-
+    email_array=emails.split(/\s*,\s*/)
+    unique_emails=email_array.uniq
+    @@all << unique_emails
   end
 
-  def self.parse(emails)
+  def self.parse
+
     email_array=emails.split(/\s*,\s*/)
     email_array.uniq
   end
