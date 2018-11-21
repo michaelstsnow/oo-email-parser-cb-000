@@ -14,11 +14,11 @@ class EmailParser
   def parse
     email_array=@@string.split(/\s/)
     @@string=""
-    clean_unique_emails = nil
+    clean_unique_emails = []
     unique_emails=email_array.uniq
     unique_emails.each do |email|
       if email.include? ","
-        clean_unique_emails<<email.tr(",","")
+        clean_unique_emails << email.tr(",","")
       else
         clean_unique_emails << email
       end
