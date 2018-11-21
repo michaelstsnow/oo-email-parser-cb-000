@@ -8,7 +8,6 @@ class EmailParser
 
   def initialize(email)
     :email=email
-    email
   end
 
   def save
@@ -25,5 +24,5 @@ class EmailParser
   def self.parse
     @@all
   end
-  
+
 end
