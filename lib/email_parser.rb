@@ -10,11 +10,12 @@ class EmailParser
 
   def initialize(email)
     :email=email
-    
+    email
   end
 
   def save
     @@all << self
+    @@all
   end
 
   def create
