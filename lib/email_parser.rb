@@ -4,9 +4,12 @@
 # or whitespace (' ').
 class EmailParser
 
+  attr_accessor(:email)
+
   @@all=[]
 
-  def initialize
+  def initialize(emails)
+    :email=email
   end
 
   def save
@@ -14,8 +17,9 @@ class EmailParser
   end
 
   def create
+
   end
 
   def
-  end 
+  end
 end
