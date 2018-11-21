@@ -20,8 +20,7 @@ class EmailParser
 
   def self.new(emails)
     email_array=emails.split(/\s*,\s*/)
-    email_array.each do
-    end
+    unique_emails-email_array.uniq
   end
 
   def self.parse
