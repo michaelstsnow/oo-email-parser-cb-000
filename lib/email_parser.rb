@@ -15,7 +15,7 @@ class EmailParser
     email_array=@@string.split(/\s/)
     @@string=""
     unique_emails=email_array.uniq
-    
+
   end
 
 end
