@@ -18,10 +18,10 @@ class EmailParser
     @@all
   end
 
-  def create
+  def self.new
 
   end
 
-  def
+  def self.parse
   end
 end
