@@ -3,5 +3,19 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 class EmailParser
-  
+
+  @@all=[]
+
+  def initialize
+  end
+
+  def save
+    @@all << self
+  end
+
+  def create
+  end
+
+  def
+  end 
 end
