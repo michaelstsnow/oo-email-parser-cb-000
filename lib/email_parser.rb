@@ -15,6 +15,11 @@ class EmailParser
     email_array=@@string.split(/\s/)
     @@string=""
     unique_emails=email_array.uniq
+    unique_emails.each do |email|
+      if email.include? ","
+      else
+      end
+    end
 
   end
 
