@@ -23,7 +23,7 @@ class EmailParser
         clean_unique_emails << email
       end
     end
-    clean_unique_emails
+    clean_unique_emails.uniq
   end
 
 end
