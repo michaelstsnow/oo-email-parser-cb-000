@@ -8,8 +8,9 @@ class EmailParser
 
   @@all=[]
 
-  def initialize(emails)
+  def initialize(email)
     :email=email
+    
   end
 
   def save
