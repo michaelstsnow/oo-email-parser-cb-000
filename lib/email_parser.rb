@@ -23,6 +23,6 @@ class EmailParser
     unique_emails-email_array.uniq
   end
 
-  def self.parse
+  def self.parse(emails)
   end
 end
