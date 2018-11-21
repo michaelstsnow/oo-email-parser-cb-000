@@ -11,7 +11,7 @@ class EmailParser
     email
   end
 
-  def self.parse
+  def parse
     @@all.split(/\s*,\s*/)
     unique_emails=email_array.uniq
   end
