@@ -11,16 +11,9 @@ class EmailParser
     email
   end
 
-  def self.new(emails)
-    email_array=emails.split(/\s*,\s*/)
-    unique_emails=email_array.uniq
-    unique_emails.each do |email|
-      @@all << email
-    end
-  end
-
   def self.parse
-    @@all
+    @@all.split(/\s*,\s*/)
+    unique_emails=email_array.uniq
   end
 
 end
